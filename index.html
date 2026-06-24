@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profile — Starter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Special+Elite&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="meta">2 AM • SINCE 2008</div>
+        <h1 class="title">NTMY, <span class="accent">I'M MARION.</span></h1>
+        <p class="sub">Good Riddance.</p>
+      </div>
+    </header>
+
+    <section class="profile-card">
+      <div class="photo-frame">
+        <img src="https://via.placeholder.com/500x650?text=PHOTO" alt="photo">
+        <span class="badge">#1</span>
+      </div>
+      <div class="about">
+        <h2 class="name">MARION REID</h2>
+        <ul class="info-list">
+          <li><strong>Vibe:</strong> VERY CONFIDENT</li>
+          <li><strong>Location:</strong> UNKNOWN</li>
+          <li><strong>Currently:</strong> BREATHING</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="pack">
+      <h3>MY PACK</h3>
+      <div class="grid">
+        <div class="thumb"><img src="https://via.placeholder.com/150" alt=""></div>
+        <div class="thumb"><img src="https://via.placeholder.com/150" alt=""></div>
+        <div class="thumb"><img src="https://via.placeholder.com/150" alt=""></div>
+        <div class="thumb"><img src="https://via.placeholder.com/150" alt=""></div>
+        <div class="thumb"><img src="https://via.placeholder.com/150" alt=""></div>
+        <div class="thumb"><img src="https://via.placeholder.com/150" alt=""></div>
+      </div>
+    </section>
+
+    <section class="meters">
+      <h3>VIBE CHECK</h3>
+      <p class="meters-desc">Just some stats about me.</p>
+
+      <div class="meter">
+        <div class="meter-label">CONFIDENCE <span>99%</span></div>
+        <div class="meter-bar"><div class="meter-fill" style="width:99%"></div></div>
+      </div>
+
+      <div class="meter">
+        <div class="meter-label">SOCIAL BATTERY <span>11%</span></div>
+        <div class="meter-bar"><div class="meter-fill" style="width:11%"></div></div>
+      </div>
+
+      <div class="contact-card">
+        <h3>SAY HI TO ME</h3>
+        <p>Write something here. It will open Telegram...</p>
+        <form>
+          <input placeholder="Your name" />
+          <textarea placeholder="Just drop a message..."></textarea>
+          <button type="submit" class="cta">SEND TO MY TELEGRAM</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-foot">
+      <div>MARION REID • MADE WITH SOUL</div>
+      <time>2026-06-24 10:51:00 GMT</time>
+    </footer>
+  </main>
+</body>
+  </html>
+  <!-- Masukkan ini di tempat yang sesuai (mis. di bawah header/hero) -->
+<div class="music-player" id="musicPlayer">
+  <button id="playBtn" class="play" aria-label="Play music">▶</button>
+  <div class="track-info">
+    <span class="dot" aria-hidden="true"></span>
+    <strong>PLAYING:</strong> <span id="trackTitle">MY WAY</span>
+  </div>
+
+  <div class="progress" aria-hidden="true">
+    <div id="progressFill" class="progress-fill" style="width:0%"></div>
+  </div>
+
+  <!-- Ganti src dengan file MP3 milikmu atau URL publik -->
+  <audio id="audio" preload="metadata">
+    <source src="assets/MyWay.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
+<!-- Optional: Spotify embed (pakai jika ingin stream resmi dari Spotify)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/PASTE_TRACK_ID_HERE" width="100%" height="80" frameborder="0" allow="encrypted-media"></iframe>
+-->
